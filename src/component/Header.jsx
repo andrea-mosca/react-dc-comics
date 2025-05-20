@@ -1,6 +1,6 @@
 export default function Header() {
     return <header>
-        <div className="d-flex justify-content-evenly align-items-center py-3">
+        <div className="container d-flex align-items-center py-3">
             <img src="dc-logo.png" alt="" />
             <ul className="d-flex flex-row">
                 <li className="px-3">CHARACTERS</li>

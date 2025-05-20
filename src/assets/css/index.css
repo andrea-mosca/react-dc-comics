@@ -4,6 +4,16 @@
 li{
   list-style: none;
 }
-main{
+
+/* MAIN */
+#content{
   background-color: black;
+  color: white;
+}
+#main-link{
+  background-color: #0282f9;
+  color: white;
+}
+.img-main{
+  max-width: 35px;
 }
