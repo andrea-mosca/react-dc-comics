@@ -17,3 +17,13 @@ li{
 .img-main{
   max-width: 35px;
 }
+
+/* footer */
+#footer-link{
+  background-image:url('footer-bg.jpg');
+  color: white;
+}
+#footer-social{
+
+  background-color: #303030;
+}
