@@ -1,8 +1,14 @@
 *{
   font-family: 'Open Sans';
 }
-li{
-  list-style: none;
+
+ul {
+  list-style-type: none;
+}
+
+a:link{
+  text-decoration: none;
+  color: lightgray;
 }
 
 /* MAIN */
@@ -21,7 +27,11 @@ li{
 /* footer */
 #footer-link{
   background-image:url('footer-bg.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
   color: white;
+  
 }
 #footer-social{
 
