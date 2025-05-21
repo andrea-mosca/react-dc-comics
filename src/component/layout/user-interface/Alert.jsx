@@ -1,4 +1,5 @@
-export default function Alert({ text, type, textColor }) {
+export default function Alert({ text, type, textColor, children }) {
+  const content = children || text || "Si è verificato un errore";
   return (
     <div className="container">
       <div
@@ -8,7 +9,7 @@ export default function Alert({ text, type, textColor }) {
             : `alert alert-danger text-danger text-center`
         }
       >
-        {text || "Si è verificato un errore"}
+        {content}
       </div>
     </div>
   );
