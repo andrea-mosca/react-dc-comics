@@ -6,7 +6,7 @@ export default function Main() {
         </div>
         <div id="main-link">
             <div className="container py-5">
-                <div className="row align-items-center justify-content-center g-0">
+                <div className="row align-items-center justify-content-between g-0">
                     <div className="col-2">
                         <img className="img-main pe-2" src="buy-comics-digital-comics.png" alt="" />
                         <span>DIGITAL COMICS</span>

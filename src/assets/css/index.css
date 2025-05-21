@@ -2,13 +2,13 @@
   font-family: 'Open Sans';
 }
 
-ul {
-  list-style-type: none;
+a{
+    text-decoration: none !important;
+    color: gray !important;
 }
-
-a:link{
-  text-decoration: none;
-  color: lightgray;
+ul{
+    list-style-type: none;
+    padding: 0 !important;
 }
 
 /* MAIN */
@@ -21,7 +21,7 @@ a:link{
   color: white;
 }
 .img-main{
-  max-width: 35px;
+  max-width: 40px;
 }
 
 /* footer */
@@ -33,6 +33,18 @@ a:link{
   color: white;
   
 }
+#logo-background{
+  width: 50%;
+  position: relative;
+  overflow: hidden;
+}
+#logo-background img{
+  position: absolute;
+  top: 50%;
+  left: 50%; 
+  transform: translate(-50%, -50%);
+}
+
 #footer-social{
 
   background-color: #303030;

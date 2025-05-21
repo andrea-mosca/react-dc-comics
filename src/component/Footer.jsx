@@ -4,7 +4,7 @@ export default function Footer() {
       <section id="footer-link">
         <div className="container d-flex flex-row justify-content-between py-4">
             <div className="d-flex flex-row">
-                <div>
+                <div className="px-4">
                 <div className="d-flex flex-column">
                     <h3>DC COMICS</h3>
                     <div>
@@ -47,7 +47,7 @@ export default function Footer() {
                     </div>
                 </div>
                 </div>
-                <div>
+                <div className="px-4">
                 <h3>DC</h3>
                 <div>
                     <ul>
@@ -87,7 +87,7 @@ export default function Footer() {
                     </ul>
                 </div>
                 </div>
-                <div>
+                <div className="px-4">
                 <h3>SITES</h3>
                 <div>
                     <ul>
@@ -111,8 +111,8 @@ export default function Footer() {
                 </div>
             </div>
 
-            <div>
-                <img src="dc-logo-bg.png" alt="" />
+            <div id="logo-background">
+                <img  src="dc-logo-bg.png" alt="" />
             </div>
         </div>
       </section>
