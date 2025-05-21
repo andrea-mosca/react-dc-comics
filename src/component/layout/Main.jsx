@@ -5,7 +5,7 @@ export default function Main() {
   return (
     <main>
       <div id="content">
-        <Alert />
+        <Alert text="alert prova succesfull" type="success" />
         <div className="container py-5">content here</div>
       </div>
       <MainIcon />
