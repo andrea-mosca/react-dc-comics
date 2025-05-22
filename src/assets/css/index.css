@@ -37,6 +37,22 @@ ul{
   background-color: black;
   color: white;
 }
+.comic-container{
+  width: 100%;
+  overflow: hidden;
+  aspect-ratio: 1 / 1;
+}
+.comic-img{
+  height: 200px;
+  width: 200px;
+  object-fit: cover;
+  object-position: top;
+  aspect-ratio: 1 / 1;
+  
+}
+
+
+
 #main-link{
   /* height: var(--mainlink-height); */
   background-color: #0282f9;
