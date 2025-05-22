@@ -36,6 +36,14 @@ ul{
   /* height: calc(var(--main-height) - var(--mainlink-height)); */
   background-color: black;
   color: white;
+  position: relative;
+}
+.current-series-btn{
+  position: absolute;
+    top: 0%;
+    left: 27%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
 }
 .comic-container{
   width: 100%;
