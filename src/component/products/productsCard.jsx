@@ -1,19 +1,10 @@
-export default function ProductCard({ title, thumb }) {
+export default function ProductCard({ comic }) {
   return (
     <div className="col-2">
       <div className="card">
-        <img src={thumb} alt={title}></img>
-        <div>{title}</div>
+        <img src={comic.thumb} alt={comic.title}></img>
+        <div>{comic.title}</div>
       </div>
     </div>
   );
-}
-
-{
-  /* <div className="col-2">
-      <div className="card">
-        <img src={thumb} className="card-img-top" alt={title}></img>
-        <div className="card-body">{title}</div>
-      </div>
-    </div> */
 }

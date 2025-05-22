@@ -4,8 +4,8 @@ export default function ProductList() {
   return (
     <div className="container py-5">
       <div className="row">
-        {comics.map((comic) => (
-          <ProductCard title={comic.title} thumb={comic.thumb} />
+        {comics.map((comic, id) => (
+          <ProductCard key={comic.id} comic={comic} />
         ))}
       </div>
     </div>
