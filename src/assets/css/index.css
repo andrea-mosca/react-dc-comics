@@ -20,6 +20,11 @@ ul{
 /* header{
   height: var(--header-height);
 } */
+header li a:hover{
+  color: blue !important; 
+  padding-bottom: 50px;
+  border-bottom: 10px solid blue;
+}
 
 /* MAIN */
 /* main{
