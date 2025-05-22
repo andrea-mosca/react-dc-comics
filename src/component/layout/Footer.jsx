@@ -1,6 +1,6 @@
 export default function Footer() {
   return (
-    <footer className="fixed-bottom">
+    <footer>
       <section id="footer-link">
         <div className="container d-flex flex-row justify-content-between py-4">
           <div className="d-flex flex-row">

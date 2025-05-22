@@ -1,9 +1,9 @@
-:root{
+/* :root{
   --footer-height: 465px;
   --header-height: 135px;
   --mainlink-height: 144px;
   --main-height: calc(100vh - var(--footer-height) - var(--header-height));
-}
+} */
 *{
   font-family: 'Open Sans';
 }
@@ -17,21 +17,28 @@ ul{
     padding: 0 !important;
 }
 /* header */
-header{
+/* header{
   height: var(--header-height);
-}
+} */
 
 /* MAIN */
-main{
+/* main{
   height: calc(100vh - var(--footer-height) - var(--header-height));
+} */
+#jumbotron-section{
+  background-image: url('jumbotron.jpg');
+  height: 500px;
+  width: 100%;
+  background-size: cover;
+  background-position: center top;
 }
 #content{
-  height: calc(var(--main-height) - var(--mainlink-height));
+  /* height: calc(var(--main-height) - var(--mainlink-height)); */
   background-color: black;
   color: white;
 }
 #main-link{
-  height: var(--mainlink-height);
+  /* height: var(--mainlink-height); */
   background-color: #0282f9;
   color: white;
 }
@@ -41,7 +48,7 @@ main{
 
 /* footer */
 footer{
-  height: var(--footer-height);
+  /* height: var(--footer-height); */
 }
 
 #footer-link{
